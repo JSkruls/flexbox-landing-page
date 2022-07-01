@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Flexbox Landing Page</title>
 </head>
 <body>
     <header>
         <div class="round-wrapper">
-
-            <nav class="main-navbar" aria-label="primary navigation">
-                <a href="index.html"><img src="images/logo.png" alt="flexbox logotype"></a>
+            <nav aria-label="primary navigation">
                 <ul>
+                    <li class="logo-container nav-button-style"><a href="index.html"><img class="logo" src="images/logo.png" alt="flexbox logotype"></a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Support</a></li>
                     <li><a href="#">Blog</a></li>
-                    <li><a href="#">Log in</a></li>
-                    <li><a href="#">Sign up</a></li>
+                    <li class="align-right log-in nav-button-style"><a href="#">Log in</a></li>
+                    <li class="sign-up nav-button-style"><a href="#">Sign up</a></li>
                 </ul>
             </nav>
 

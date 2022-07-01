@@ -1,25 +1,109 @@
-/* css reset */
-    html {
-        box-sizing: border-box;
-        font-size: 16px;
-    }
-    
-    *, *:before, *:after {
-        box-sizing: inherit;
-    }
-    
-    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-        margin: 0;
-        padding: 0;
-        font-weight: normal;
-    }
-    
-    ol, ul {
-        list-style: none;
-    }
-    
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-/* end reset */
+/* Reset */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* End Reset */
+
+
+/* Global */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(217, 217, 217, 0.5);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(77, 77, 77);
+}
+/* End Global */
+
+
+/* Header */
+.round-wrapper {
+    margin: 1rem;
+    border-radius: 1.25rem;
+}
+/* End Header */
+
+
+/* Navigation */
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+
+ul {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.nav-button-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+
+.logo-container  {
+    width: 45px;
+    border-radius: 100%;
+    background: rgb(255,255,255);
+    box-shadow: 0px 1px 5px 3px rgba(182,173,219,0.65);
+}
+
+.log-in {
+    padding:  0 10px;
+    border-radius: 40px;
+    border: 2px solid rgb(255,255,255);; 
+    background: rgb(235, 235, 244);
+    box-shadow: 0px 1px 5px 3px rgba(216,209,232,0.75);
+}
+
+.sign-up {
+    padding: 0 10px;
+    border-radius: 40px;
+    background: linear-gradient(180deg, rgba(2,0,36,0.8) 0%, rgba(146,118,221,1) 100%);
+    box-shadow: 0px 1px 5px 3px rgba(216,209,232,1.0);
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+    vertical-align: bottom;
+}
+
+.log-in a {
+    color: rgb(111, 75, 189);
+}
+.sign-up a {
+    color:rgb(255, 255, 255);
+}
+/* End Navigation */
