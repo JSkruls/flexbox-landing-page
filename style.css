@@ -118,7 +118,14 @@ ul {
 
 h1 {
     font-weight: 200;
-    font-size: 4.20rem;
+    font-size: 4.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-wrapper p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    max-width: 660px;
 }
 
 .hero-text {
@@ -135,6 +142,11 @@ h1 {
     position: absolute !important;
     white-space: nowrap !important;
     width: 1px !important;
+}
+
+img.ipad {
+    position: relative;
+    
 }
 
 /* End Hero */
