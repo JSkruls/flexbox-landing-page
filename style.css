@@ -41,8 +41,8 @@ a {
 
 /* Header */
 .round-wrapper {
-    margin: 1rem;
-    border-radius: 1.25rem;
+    margin: 16px;
+    border-radius: 20px;
 }
 /* End Header */
 
@@ -113,7 +113,7 @@ ul {
 .hero-wrapper {
     max-width: 1200px;
     padding: 0 10px;
-    margin: 8rem auto;
+    margin: 120px  auto 50px auto;
     
 }
 
@@ -127,11 +127,18 @@ h1 {
     font-size: 1.2rem;
     line-height: 1.7rem;
     max-width: 660px;
+    margin-bottom: 50px;
 }
 
 .hero-text {
     display: block;
     width: 395px;
+}
+
+img.ipad {
+    position: absolute;
+    top: 3.5rem;
+    left: 51%;  
 }
 
 .visually-hidden {
@@ -145,11 +152,35 @@ h1 {
     width: 1px !important;
 }
 
-img.ipad {
-    position: absolute;
-    top: 3.5rem;
-    left: 51%;
-    
+form {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+    padding: 10px 10px 10px 20px;
+    width: 350px;
+    background:rgb(255, 255, 255);
+    box-shadow: 0px 1px 5px 3px rgba(182, 173, 219,0.65);
 }
+
+input[type="email"],
+input:focus,
+input::placeholder {
+    border: 0;
+    outline: 0 !important;
+    letter-spacing: 0.8px;
+    color: rgba(77, 77, 77, 0.7);
+}
+
+input[type="submit"] {
+    border: 0;
+    padding: 10px;
+    border-radius: 40px;
+    background: linear-gradient(180deg, rgba(35, 20, 72, 0.8) 0%, rgba(146,118,221,1) 100%);
+    box-shadow: 0px 1px 5px 3px rgba(216,209,232,1.0);
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
 
 /* End Hero */
