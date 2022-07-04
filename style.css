@@ -51,7 +51,7 @@ a {
 
 /* Header */
 header {
-    padding-bottom: 70px;
+    padding: 15px;
     background-image: linear-gradient(
         60deg,
         hsl(232deg 82% 87%) 0%,
@@ -62,9 +62,13 @@ header {
 }
 
 .round-wrapper {
-    margin: 0 16px;
-    padding-top: 15px;
+    margin: 0 auto;
+    max-width: 1500px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 15px 60px 15px;
     border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 1px 5px 3px rgba(192, 188, 231, 0.25);
 }
 /* End Header */
 
@@ -163,7 +167,7 @@ h1 {
 
 img.ipad {
     position: absolute;
-    top: 55px;
+    top: 70px;
     left: 52%;  
 }
 
