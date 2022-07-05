@@ -53,12 +53,12 @@ a {
 header {
     padding: 15px;
     background-image: linear-gradient(
-        60deg,
-        hsl(232deg 82% 87%) 0%,
-        hsl(234deg 83% 96%) 33%,
-        hsl(261deg 82% 96%) 67%,
-        hsl(260deg 80% 88%) 100%
-      );
+      60deg,
+      hsl(232deg 82% 87%) 0%,
+      hsl(234deg 83% 96%) 33%,
+      hsl(261deg 82% 96%) 67%,
+      hsl(260deg 80% 88%) 100%
+    );
 }
 
 .round-wrapper {
@@ -129,6 +129,7 @@ ul {
 .log-in a {
     color: rgb(111, 75, 189);
 }
+
 .sign-up a {
     color:rgb(255, 255, 255);
 }
@@ -181,9 +182,7 @@ form {
     box-shadow: 0px 1px 5px 3px rgba(182, 173, 219, 0.25);
 }
 
-input[type="email"],
-input:focus,
-input::placeholder {
+input[type="email"], input:focus, input::placeholder {
     border: 0;
     outline: 0 !important;
     letter-spacing: 0.8px;
@@ -220,5 +219,80 @@ input[type="submit"] {
 button img {
     vertical-align: bottom;
 }
-
 /* End Hero */
+
+
+/* Main */
+main {
+
+    background-image: linear-gradient(
+    315deg,
+    hsl(259deg 37% 37%) 0%,
+    hsl(257deg 39% 55%) 33%,
+    hsl(257deg 39% 55%) 90%,
+    hsl(259deg 37% 37%) 100%
+    );
+}
+
+.main-gradient {
+    display: flex;
+    justify-content: center;
+    padding: 35px 15px;
+    margin-bottom: 320px;
+    background-image: linear-gradient(
+    0deg,
+    hsla(253deg, 43%, 27%, 0.3) 0%,
+    hsla(253deg, 43%, 27%, 0) 15%,
+    hsla(253deg, 43%, 27%, 0) 67%,
+    hsla(253deg, 43%, 27%, 0.7) 100%
+    );
+}
+
+.article-container {
+    display: flex;
+    justify-content: space-around;
+    width: 1500px;
+}
+
+article {
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(242, 238, 253);
+    width: 385px;
+    box-shadow: 0px 1px 9px 3px rgba(89, 59, 149, 0.65);
+}
+
+.card-container {
+    position: relative;
+    border-radius: 6px;
+    background:rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    padding: 8px 0;
+    color: rgb(255, 255, 255);
+    border-radius: 6px 6px 0 0;
+    background-image: linear-gradient(
+      90deg,
+      hsl(233deg 80% 88%) 0%,
+      hsl(246deg 80% 89%) 10%,
+      hsl(260deg 79% 89%) 70%,
+      hsl(246deg 80% 89%) 90%,
+      hsl(233deg 80% 88%) 100%
+    );
+}
+
+.card-container p {
+    padding: 20px 10px;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.card-container img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 35px;
+}
+/* End Main */
